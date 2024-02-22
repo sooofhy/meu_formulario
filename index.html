@@ -14,9 +14,12 @@
   </head>
   <body>
     <div class="container">
+      <div class="buttons">
+        <a href="listagem.html" class="btn">Ver Formulário</a>
+      </div>
       <header>
         <img src="/assets/logo.png" alt="Logo" class="logo" />
-        <h1 class="heading">Formulário Desenvolvimento WEB II</h1>
+        <h1 class="heading">Formulário Novo</h1>
       </header>
       <form action="#" method="post" class="form">
         <div class="form-group">
@@ -67,7 +70,7 @@
 
         try {
           // Faz uma requisição para a sua API
-          await fetch("INSIRA O LINK DA SUA API AQUI", {
+          await fetch("https://meu-projeto-g1c9.onrender.com/formulario", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
